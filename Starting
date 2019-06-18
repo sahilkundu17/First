@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <style>
+   a:hover{animation: anm 1s infinite;}
+   body{animation: anm2 3s infinite;}
+   h2{color:darkgrey;text-align:center;}
+   a:link{text-decoration:none;}
+   a:visited{color:indianred;}
+   a:hover{color:grey;}
+   a:active{color:thistle;}
+   a{font-size:40px}
+   #tv{position:absolute;top:25%}
+   #tech{position:relative;left:82.7%;position:absolute;top:35%;}
+   #functional{position:absolute;top:50%}
+   #games{position:relative;left:88.6%;position:absolute;top:59%;}
+   #wallpapers{position:absolute;top:74%}
+   @keyframes anm {
+     from{
+       color:none;
+     }
+     to{color:blue;}
+   }
+   @keyframes anm2 {
+     from{
+       background-image:url('rain2.jpg');}
+       to{background-image:url('rain.jpg');}
+   }
+   div.first{border:1px solid white;height:536px;width:1px;position:absolute;left:34%;top:1%;}
+   div.second{border:1px solid white;height:536px;width:1px;position:absolute;left:76%;top:1%;}
+   hr{position:absolute;top:16%;;width:99%;}
+   div.fourth{height:92px;width:449px;background-color: grey;}
+  div.fifth{height:92px;width:310px;background-color:grey;position:absolute;left:76.7%;top:1.4%;}
+   div.sixth{height:536px;width:558px;background-color: red;position:absolute;left:34.6%;top:11.7%;}
+   </style>
+   <meta charset="UTF-8">
+   <meta name="description" content="Official KS17 website">
+   <title> SK17 </title>
+   </head>
+   <body>
+     <div class="first" > </div>
+     <div class="second" > </div>
+     <hr/>
+     <div class="fourth" > </div>
+        <div class="fifth"> </div>
+     <div class="sixth"><marquee direction="right" scrollamount="12">  <img src="av.jpg" height="536" width="360px" ><img src="ann.jpg" height="536" width="360px" ><img src="mk.jpg" height="536" width="360px" ><img src="ww.jpg" height="536" width="360px" ><img src="got.jpg" height="536" width="360px" ></marquee></div>
+    <br/><br/>
+    <a id="tv" href="index-movies.html" target="_blank" style="color:red;background-color:orange;border:8px solid limegreen;border-left:none;padding-right:25px;border-top-right-radius:35px;border-bottom-right-radius:35px;padding-top:10px;padding-bottom:10px;"> &nbsp&nbspMovies &nbsp & &nbsp Shows </a>
+    <a id="tech" href="index-tech.html" target="_blank" style="color:red;background-color:orange;border:8px solid pink;border-right:none;padding-left:25px;border-top-left-radius:35px;border-bottom-left-radius:35px;padding-top:10px;padding-bottom:10px;"> Technology&nbsp </a>
+    <a id="functional" href="index-funt.html" target="_blank" style="color:red;background-color:orange;border:8px solid pink;border-left:none;padding-right:25px;border-top-right-radius:35px;border-bottom-right-radius:35px;padding-top:10px;padding-bottom:10px;"> &nbsp&nbspFunctional </a>
+    <a id="games" href="index-game.html" target="_blank" style="color:red;background-color:orange;border:8px solid limegreen;border-right:none;padding-left:25px;border-top-left-radius:35px;border-bottom-left-radius:35px;padding-top:10px;padding-bottom:10px;"> Games&nbsp </a>
+    <a id="wallpapers" href="index-wall.html" target="_blank" style="color:red;background-color:orange;border:8px solid limegreen;border-left:none;padding-right:25px;border-top-right-radius:35px;border-bottom-right-radius:35px;padding-top:10px;padding-bottom:10px;"> &nbsp&nbspWallpapers </a>
+ </body>
+</html>
